@@ -151,12 +151,6 @@ const styles = StyleSheet.create({
     justifyContent: 'space-between',
     padding: 20,
   },
-  header: {
-    fontSize: 24,
-    fontWeight: 'bold',
-    color: 'green',
-    marginBottom: 20,
-  },
   input: {
     width: '80%',
     padding: 10,

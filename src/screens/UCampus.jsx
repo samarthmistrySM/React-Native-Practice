@@ -138,7 +138,7 @@ const UCampus = () => {
             />
             <View>
               <Text style={{color: '#fff'}}>Umoney</Text>
-              <Text style={{color: '#fff'}}>₹ 1000</Text>
+              <Text style={{color: '#fff'}}>₹ 10,000</Text>
             </View>
           </View>
         </View>
@@ -314,7 +314,7 @@ const UCampus = () => {
                   position: 'absolute',
                   bottom: 2,
                   textAlign: 'center',
-                  fontSize: '12',
+                  fontSize: 12,
                 }}>
                 Burger
               </Text>
@@ -344,7 +344,7 @@ const UCampus = () => {
                   position: 'absolute',
                   bottom: 2,
                   textAlign: 'center',
-                  fontSize: '12',
+                  fontSize: 12,
                 }}>
                 wrap
               </Text>
@@ -374,7 +374,7 @@ const UCampus = () => {
                   position: 'absolute',
                   bottom: 2,
                   textAlign: 'center',
-                  fontSize: '10',
+                  fontSize: 10,
                 }}>
                 Cheese Balls
               </Text>
@@ -399,7 +399,7 @@ const UCampus = () => {
                   position: 'absolute',
                   bottom: 2,
                   textAlign: 'center',
-                  fontSize: '12',
+                  fontSize: 12,
                 }}>
                 Burger
               </Text>
@@ -429,7 +429,7 @@ const UCampus = () => {
                   position: 'absolute',
                   bottom: 2,
                   textAlign: 'center',
-                  fontSize: '12',
+                  fontSize: 12,
                 }}>
                 wrap
               </Text>
@@ -459,7 +459,7 @@ const UCampus = () => {
                   position: 'absolute',
                   bottom: 2,
                   textAlign: 'center',
-                  fontSize: '10',
+                  fontSize: 10,
                 }}>
                 Cheese Balls
               </Text>
@@ -653,10 +653,52 @@ const UCampus = () => {
               }}
               source={require('../assets/br.png')}
             />
-            <View style={{flexDirection:'row',padding:10,}}>
-              <Image style={{width:80,height:80,borderColor:"green", borderWidth:1,padding:10,borderRadius:20}} source={require("../assets/br.png")}/>
+            <View style={{flexDirection: 'row', padding: 10}}>
+              <Image
+                style={{
+                  width: 80,
+                  height: 80,
+                  borderColor: 'green',
+                  borderWidth: 1,
+                  padding: 10,
+                  borderRadius: 20,
+                }}
+                source={require('../assets/br.png')}
+              />
+              <View style={{justifyContent: 'center', paddingHorizontal: 10}}>
+                <Text>Baskin Robbin</Text>
+                <View
+                  style={{
+                    flexDirection: 'row',
+                    paddingVertical: 3,
+                    backgroundColor: '#45A047',
+                    justifyContent: 'space-evenly',
+                    width: 60,
+                    borderRadius: 10,
+                    marginTop: 10,
+                  }}>
+                  <Image
+                    style={{
+                      width: 15,
+                      height: 15,
+                      objectFit: 'contain',
+                      marginRight: 3,
+                      tintColor: '#fff',
+                    }}
+                    source={require('../assets/star.fill.png')}
+                  />
+                  <Text style={{color: '#fff'}}>3.90</Text>
+                </View>
+              </View>
             </View>
           </View>
+        </View>
+
+        <View style={{marginTop:40, paddingHorizontal:10}}>
+            <Text style={{fontSize:18,textAlign:'center',color:'gray'}}>One cannnot thinnk well, love well, slepp well, if one has not dined well</Text>
+            <Image style={{width:'100%',height:40,tintColor:'gray'}} source={require("../assets/design.png")}/>
+            <Text style={{textAlign:'center',marginTop:30}}>Powered By</Text>
+            <Text style={{textAlign:'center'}}>9191 Hospitality</Text>
         </View>
       </ScrollView>
 

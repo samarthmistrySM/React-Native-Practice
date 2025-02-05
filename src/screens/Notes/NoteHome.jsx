@@ -21,7 +21,7 @@ const NoteHome = () => {
         <ScrollView
           showsVerticalScrollIndicator={false}
           style={{
-            maxHeight: '81%',
+            minHeight: '81%',
             width: '100%',
             paddingHorizontal: 15,
             marginTop: 20,
